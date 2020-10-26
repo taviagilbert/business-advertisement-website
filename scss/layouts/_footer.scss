@@ -1,0 +1,31 @@
+.footer {
+  color: $white;
+  display: flex;
+  background-color: $gray-800;
+  font-size: 1.2rem;
+
+  &__copyright {
+    flex: 1;
+  }
+
+  &__terms-policy {
+    ul li {
+      list-style: $link-decoration;
+      display: inline-block;
+      padding-right: 2rem;
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    &__copyright {
+      padding-bottom: 1.2rem;
+    }
+  }
+}

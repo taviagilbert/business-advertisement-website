@@ -1,0 +1,44 @@
+//
+// == Card
+// --------------------------------------------------
+
+.cards {
+  @include ruth-grid;
+  grid-gap: 7rem;
+
+  .cards-items {
+    box-shadow: 0px 0px 15px 0px rgba(217, 217, 217, 0.65);
+    border-radius: 1.4rem 1.4rem 0 0;
+  }
+
+  .card__image {
+    margin-bottom: -1rem;
+    img {
+      border-radius: 1.4rem 1.4rem 0 0;
+    }
+  }
+
+  .card-topic {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-details {
+    background-color: $white;
+    padding: 4rem;
+
+    .details--title {
+      @include main-header;
+    }
+
+    .details--price {
+      color: $primary;
+      font-weight: $font-weight-bold;
+      font-size: 2.2rem;
+    }
+
+    .details--des {
+      line-height: $line-height;
+    }
+  }
+}

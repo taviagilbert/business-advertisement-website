@@ -1,0 +1,65 @@
+//
+// == Reboot
+// --------------------------------------------------
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
+}
+
+body {
+  @include font-smoothing;
+  color: $gray-500;
+  font-family: "Barlow", Courier, monospace;
+
+  background: {
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+    attachment: fixed;
+  }
+}
+
+ul li,
+a {
+  text-decoration: none;
+  color: $primary;
+}
+
+img,
+figure {
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-width: 100%;
+}
+
+// Responsive iframes
+iframe {
+  width: 100%;
+  border: 0;
+}
+
+// Text Selection Color
+::selection {
+  background: $gray-800;
+  color: $white;
+}
+::-moz-selection {
+  background: $gray-800;
+  color: $white;
+}

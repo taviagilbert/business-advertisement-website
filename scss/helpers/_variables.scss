@@ -1,0 +1,71 @@
+//
+// == Variables
+// --------------------------------------------------
+
+// Theme colors
+$white: #ffffff;
+$gray-500: #8c8c8c;
+$gray-800: #343b43;
+$dark-blue: #0c3653;
+$black: #000000;
+$primary: #f98169;
+
+//== Break Points
+// -------------------------------------------------------
+
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+
+//== Gobal
+// -------------------------------------------------------
+
+//Links
+$link-decoration: none;
+$link-hover-color: $primary;
+
+//Text
+$text-transform: uppercase;
+
+// == Fonts
+// -------------------------------------------------------
+
+// Font Families
+$font-family-base: "Barlow", sans-serif, monospace;
+
+// Font Families (line-heights)
+$line-height: 1.3;
+$line-height-2: 1.6;
+
+// Font Families (weight)
+$font-weight-bold: 800;
+
+//== Navbar
+// -------------------------------------------------------
+
+//Navbar (width)
+$navbar-width: 100%;
+
+//Navbar (Padding & Margin)
+$navbar-padding: 3rem 0 3rem 0;
+
+//Z-index
+$zindex-navbar: 900;
+
+//Transition
+$navbar-transition: all 0.3s ease 0s;
+
+//== Header & Overlay
+// -------------------------------------------------------
+
+// Header & Overlay (height)
+$header-vh-height: 85vh;
+$small-header-vh-height: 60vh;
+
+//== Buttons
+// -------------------------------------------------------
+
+//Button (Transform & Transition)
+$btn-transition: all 0.3s ease 0s;

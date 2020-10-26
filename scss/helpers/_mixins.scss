@@ -1,0 +1,26 @@
+//
+// == Mixins
+// --------------------------------------------------
+
+// Font smoothing
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin main-header {
+  margin-bottom: 2rem;
+  color: $dark-blue;
+}
+
+@mixin image-border {
+  border-top-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+
+@mixin ruth-grid {
+  display: grid;
+  grid-column: center-start / center-end;
+  margin: 5rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}

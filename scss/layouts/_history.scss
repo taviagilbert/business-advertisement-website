@@ -1,0 +1,19 @@
+.history {
+  &__content {
+    @include ruth-grid;
+    grid-gap: 20rem;
+
+    @media only screen and (max-width: $bp-small) {
+      grid-gap: 0;
+    }
+  }
+
+  &__image img {
+    @include image-border;
+  }
+
+  &__image--title {
+    @include main-header;
+    font-size: 2rem;
+  }
+}

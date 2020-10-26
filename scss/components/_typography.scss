@@ -1,0 +1,70 @@
+//
+// Typography Fonts
+// Headings
+// Alignment
+// --------------------------------------------------
+
+// == Typography Fonts
+// -------------------------------------------------------
+
+//Import Google Fonts (Barlow)
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow/Barlow-Regular.eot");
+  src: url("../fonts/Barlow/Barlow-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Barlow/Barlow-Regular.woff2") format("woff2"),
+    url("../fonts/Barlow/Barlow-Regular.woff") format("woff"),
+    url("../fonts/Barlow/Barlow-Regular.ttf") format("truetype"),
+    url("../fonts/Barlow/Barlow-Regular.svg#Barlow-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow/Barlow-ExtraBold.eot");
+  src: url("../fonts/Barlow/Barlow-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Barlow/Barlow-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Barlow/Barlow-ExtraBold.woff") format("woff"),
+    url("../fonts/Barlow/Barlow-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Barlow/Barlow-ExtraBold.svg#Barlow-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow/Barlow-Thin.eot");
+  src: url("../fonts/Barlow/Barlow-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Barlow/Barlow-Thin.woff2") format("woff2"),
+    url("../fonts/Barlow/Barlow-Thin.woff") format("woff"),
+    url("../fonts/Barlow/Barlow-Thin.ttf") format("truetype"),
+    url("../fonts/Barlow/Barlow-Thin.svg#Barlow-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+// == Headings
+// -------------------------------------------------------
+
+.lead-heading {
+  font-size: 3.3rem;
+  margin-bottom: 0.75rem;
+  line-height: $line-height;
+}
+
+.secondary-heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: $line-height-2;
+}
+
+//
+//  == Alignment
+// --------------------------------------------------
+
+.text-center {
+  text-align: center;
+}

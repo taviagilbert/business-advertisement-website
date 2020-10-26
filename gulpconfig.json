@@ -1,0 +1,21 @@
+{
+  "browserSyncOptions": {
+    "server": "./",
+    "notify": false,
+    "_comment": "Using the proxy method -> proxy: localhost/"
+  },
+  "browserSyncWatchFiles": [
+    "./scss/**/*.scss",
+    "./src/**/*.js",
+    "./**/*.html"
+  ],
+  "Basepaths": {
+    "JS": "./assets/js",
+    "CSS": "./assets/css",
+    "FONTS": "./assets/fonts",
+    "IMAGES_PATH": "./assets/images/**/*.{png,jpeg,jpg,svg,gif}",
+    "NODE": "./node_modules/",
+    "DEV": "./src",
+    "SCSS": "./scss"
+  }
+}

@@ -1,0 +1,59 @@
+//
+// Header & Overlay
+// --------------------------------------------------
+
+.header {
+  height: $header-vh-height;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($primary, 0.5),
+      rgba($primary, 0.5)
+    ),
+    url(https://via.placeholder.com/1290×762);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    img {
+      display: block;
+      position: relative;
+      left: -50%;
+      top: -50%;
+    }
+
+    @media (orientation: landscape) {
+      top: 65%;
+      height: 80%;
+    }
+  }
+}
+
+.small-header {
+  height: $small-header-vh-height;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($primary, 0.5),
+      rgba($primary, 0.5)
+    ),
+    url(../images/header.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &__heading {
+    color: $white;
+    text-transform: $text-transform;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}

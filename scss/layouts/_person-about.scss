@@ -1,0 +1,38 @@
+.intro {
+  &__info {
+    display: flex;
+  }
+
+  &__image {
+    flex: 1;
+    @include image-border;
+    img {
+      box-shadow: 7px 10px 15px 0px rgba(65, 72, 79, 0.35);
+    }
+  }
+
+  .content {
+    flex: 1;
+    font-size: 1.6rem;
+    padding: 10rem 0 0 20rem;
+
+    &__intro {
+      @include main-header;
+    }
+    &__text {
+      line-height: 2.9rem;
+    }
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    &__info {
+      display: flex;
+      flex-direction: column;
+
+      .content {
+        font-size: 1.6rem;
+        padding: 5rem 0 0 0;
+      }
+    }
+  }
+}
